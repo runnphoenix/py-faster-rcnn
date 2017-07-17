@@ -13,6 +13,9 @@ Demo script showing detections in sample images.
 See README.md for installation instructions before running.
 """
 
+# Reading: What if using imagenet models in demo file? Can detect more
+# categories? How many categories are there in the pretrained model?
+
 import _init_paths
 from fast_rcnn.config import cfg
 from fast_rcnn.test import im_detect
